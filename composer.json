@@ -1,0 +1,27 @@
+{
+    "name": "unige/migratelogger",
+    "type": "library",
+    "description": "A basic PSR-3 logger wrapping echo() and error_log(), even in combination, useful for migrating naive debugging",
+    "version": "1.0.2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Ferrante",
+            "email": "marco@csita.unige.it",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "UniGe\\logger\\": "src/"
+        }
+    },
+    "require": {
+        "psr/log": "^1.0.0"
+    },
+    "provide": {
+        "psr/log": "1.0.0"
+    }    
+}
+
+
